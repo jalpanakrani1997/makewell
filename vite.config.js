@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
  
 // vite.config.js
 export default defineConfig({
-  base: '/makewell/',
+  base: './',
   plugins: [react()],
   server: {
     hmr: {
