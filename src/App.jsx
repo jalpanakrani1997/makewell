@@ -8,6 +8,7 @@ import Manufacture from './pages/Manufacture'
 import Gallery from './pages/Gallery'
 import Domestic from './menupage/Domestic'
 import Export from './menupage/Export'
+import Contact from './pages/Contact'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/product/domestic" element={<Domestic />} />
         <Route path="/product/export" element={<Export />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </BrowserRouter>
   )
